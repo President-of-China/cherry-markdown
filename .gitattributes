@@ -7,10 +7,6 @@
 *.jpg binary
 *.gif binary
 *.mp4 binary
-*.eot binary
-*.ttf binary
-*.woff binary
-*.woff2 binary
 *.ico binary
 
-dist/** binary
+dist/** filter=lfs diff=lfs merge=lfs -text
