@@ -9,4 +9,4 @@
 *.mp4 binary
 *.ico binary
 
-dist/** filter=lfs diff=lfs merge=lfs -text
+dist/**/* binary
